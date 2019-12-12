@@ -10,7 +10,7 @@ const App = () => {
       <View style={{flex: 1}}>
         <Header title={'Cars'}/>
         <CarList />
-      </View>
+      </View> 
     )
 };
 

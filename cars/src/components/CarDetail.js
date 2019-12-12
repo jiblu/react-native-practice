@@ -37,7 +37,7 @@ const styles = {
     height: 300,
     flex: 1,
     width: 0
-  }
+  } 
 }
 
 export default CarDetail
