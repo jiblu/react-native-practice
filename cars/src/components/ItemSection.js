@@ -12,7 +12,7 @@ const ItemSection = (props) => {
 const styles = {
   viewStyle: {
     borderBottomWidth: 1,
-    borderColor: 'gainsboro',
+    borderColor: 'gainssboro',
     padding: 5,
     flexDirection: 'row',
     justifyContent: 'flex-start',

@@ -14,7 +14,7 @@ const styles = {
   viewStyle: {
     borderWidth: 1,
     borderBottomWidth: 0,
-    borderColor: 'gainsboro',
+    // borderColor: 'gainsboro',
     shadowColor: 'black',
     shadowOffSet: { width: 1, height: 1},
     opacity: 0.1,

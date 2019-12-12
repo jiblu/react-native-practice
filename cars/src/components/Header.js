@@ -20,7 +20,7 @@ const styles = {
     height: 70,
     justifyContent: "center",
     alignItems: "center",
-    paddingTop: 25
+    paddingTop: 25,
   }
 };
 
