@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Image } from 'react-native';
 import Item from './Item.js';
 import ItemSection from './ItemSection.js';
+import Button from './Button.js';
 
 const CarDetail = ({ brand }) => {
   const { headerContainer, headerText, imageStyle } = styles;
@@ -18,6 +19,9 @@ const CarDetail = ({ brand }) => {
           source={{ uri: brand.model[0].image }} 
           style={imageStyle}
         />
+      </ItemSection>
+      <ItemSection>
+        <Button />
       </ItemSection>
     </Item>
   )
