@@ -21,7 +21,9 @@ const CarDetail = ({ brand }) => {
         />
       </ItemSection>
       <ItemSection>
-        <Button />
+        <Button buttonPress={() => {
+          console.log(brand.brand)
+        }}/>
       </ItemSection>
     </Item>
   )
