@@ -9,4 +9,13 @@ const Button = () => {
   )
 }
 
+const styles = {
+  buttonStyle: {
+    flex: 1,
+    alignSelf: 'stretch',
+    backgroundColor: 'grey',
+    borderWidth: 1,
+    borderColor: 'gainsboro'
+  }
+};
 export default Button;
