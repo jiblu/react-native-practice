@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, Linking } from 'react-native';
 import Item from './Item.js';
 import ItemSection from './ItemSection.js';
 import Button from './Button.js';
@@ -22,8 +22,9 @@ const CarDetail = ({ brand }) => {
       </ItemSection>
       <ItemSection>
         <Button buttonPress={() => {
-          console.log(brand.brand)
-        }}/>
+          Linking.openURL(brand.model[0].url);
+          }}
+        />
       </ItemSection>
     </Item>
   )
